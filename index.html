@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Snowy River Sheds - Custom Australian-made sheds, garages, barns and carports with 25-year warranty">
+  <title>Snowy River Sheds - Custom Aussie Sheds, Garages & Carports</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">Snowy River Sheds</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#our-range" class="nav-link">Our Range</a></li>
+        <li><a href="#why-choose-us" class="nav-link">Why Choose Us</a></li>
+        <li><a href="#design-app" class="nav-link">Design App</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <img src="/images/hero-shed-ai.jpg" alt="Australian rural shed landscape" loading="eager">
+    </div>
+    <div class="hero-content animate-on-scroll">
+      <h1>Custom Aussie Sheds, Garages & Carports</h1>
+      <div class="hero-buttons">
+        <button class="cta-button cta-primary" onclick="window.location.href='https://design.snowyriversheds.com.au'">Design Your Shed</button>
+        <button class="cta-button cta-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Enquire Now</button>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M7 10l5 5 5-5"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Our Range Section -->
+  <section class="our-range" id="our-range">
+    <div class="container animate-on-scroll">
+      <h2>Our Range</h2>
+      <div class="range-carousel-container">
+        <button class="carousel-nav prev" aria-label="Previous items">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <button class="carousel-nav next" aria-label="Next items">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </button>
+        <div class="range-carousel" id="range-carousel">
+          <div class="range-card" data-shed-type="shed">
+            <img src="/images/sheds-ai-shed.jpg" alt="Custom shed" loading="lazy">
+            <h3>Sheds</h3>
+            <p>Versatile storage solutions for tools, equipment, and workshops</p>
+            <button class="quote-button" aria-label="Get quote for sheds">Get Quote</button>
+          </div>
+          <div class="range-card" data-shed-type="garage">
+            <img src="/images/sheds-ai-garage.jpg" alt="Custom garage" loading="lazy">
+            <h3>Garages</h3>
+            <p>Protect your vehicles with our durable, custom-built garages</p>
+            <button class="quote-button" aria-label="Get quote for garages">Get Quote</button>
+          </div>
+          <div class="range-card" data-shed-type="barn">
+            <img src="/images/sheds-ai-barn.jpg" alt="Custom barn" loading="lazy">
+            <h3>Barns</h3>
+            <p>Spacious agricultural buildings for livestock and equipment</p>
+            <button class="quote-button" aria-label="Get quote for barns">Get Quote</button>
+          </div>
+          <div class="range-card" data-shed-type="carport">
+            <img src="/images/sheds-ai-carport.jpg" alt="Custom carport" loading="lazy">
+            <h3>Carports</h3>
+            <p>Weather protection for vehicles with open-sided convenience</p>
+            <button class="quote-button" aria-label="Get quote for carports">Get Quote</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button class="carousel-indicator active" aria-label="Go to slide 1"></button>
+        <button class="carousel-indicator" aria-label="Go to slide 2"></button>
+        <button class="carousel-indicator" aria-label="Go to slide 3"></button>
+        <button class="carousel-indicator" aria-label="Go to slide 4"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us" id="why-choose-us">
+    <div class="container animate-on-scroll">
+      <h2>Why Choose Us</h2>
+      <div class="features-strip">
+        <div class="feature">
+          <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/>
+            <path d="M15 24l7 7 13-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Australian-made Steel</h3>
+          <p>Premium quality BlueScope steel manufactured locally</p>
+        </div>
+        <div class="feature">
+          <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 20h16M16 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h3>25-Year Warranty</h3>
+          <p>Industry-leading warranty on all structures and materials</p>
+        </div>
+        <div class="feature">
+          <svg class="feature-icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path d="M24 8l4 12h12l-10 7 4 12-10-7-10 7 4-12-10-7h12z" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+          <h3>Local Installers</h3>
+          <p>Professional installation by certified local contractors</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design App Banner -->
+  <section class="design-app" id="design-app">
+    <div class="container animate-on-scroll">
+      <div class="design-app-content">
+        <div class="design-app-text">
+          <h2>Design Your Shed in 3D</h2>
+          <p>Use our interactive app to customize your perfect shed</p>
+          <a href="https://design.snowyriversheds.com.au" class="cta-button cta-primary" target="_blank" rel="noopener">Launch Design App</a>
+        </div>
+        <div class="design-app-mockup">
+          <img src="/images/phone-mockup-ai.jpg" alt="3D shed design app on mobile phone" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container animate-on-scroll">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-slider" id="testimonial-slider">
+        <div class="testimonial active">
+          <blockquote>
+            <p>"Brilliant service from start to finish. Our new shed is exactly what we needed for the farm equipment. The local installer was professional and efficient."</p>
+            <cite>— Sarah Mitchell, Jindabyne</cite>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            <p>"The 3D design app made it so easy to visualize our garage before committing. The quality of the steel and workmanship is outstanding."</p>
+            <cite>— Tom Wilson, Cooma</cite>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            <p>"We've had our Snowy River barn for 5 years now and it still looks brand new. The 25-year warranty gives us great peace of mind."</p>
+            <cite>— Emma & James Chen, Tumut</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container animate-on-scroll">
+      <h2>Get Your Free Quote</h2>
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+            <span class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+            <span class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone*</label>
+            <input type="tel" id="phone" name="phone" required aria-required="true">
+            <span class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="postcode">Postcode*</label>
+            <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required aria-required="true">
+            <span class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group form-full">
+            <label for="shed-type">Shed Type*</label>
+            <select id="shed-type" name="shed-type" required aria-required="true">
+              <option value="">Select a type</option>
+              <option value="shed">Shed</option>
+              <option value="garage">Garage</option>
+              <option value="barn">Barn</option>
+              <option value="carport">Carport</option>
+            </select>
+            <span class="error-message" role="alert"></span>
+          </div>
+          <div class="form-group form-full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="cta-button cta-primary">Send Quote Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Snowy River Sheds</h3>
+          <p>ABN: 12 345 678 901</p>
+        </div>
+        <div class="footer-contact">
+          <p><a href="tel:+611800777743">1800 SRS SHEDS</a></p>
+          <p><a href="mailto:info@snowyriversheds.com.au">info@snowyriversheds.com.au</a></p>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook" class="social-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/>
+              <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Phone Badge -->
+  <div class="phone-badge" id="phone-badge" aria-label="Call now">
+    <a href="tel:+611800777743" class="phone-badge-link">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+    </a>
+    <span class="phone-tooltip">1800 SRS SHEDS</span>
+  </div>
+
+  <!-- Quote Modal -->
+  <div class="modal" id="quote-modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <h3 id="modal-title">Request a Quote</h3>
+      <form class="modal-form" id="modal-form" novalidate>
+        <input type="hidden" id="modal-shed-type" name="modal-shed-type">
+        <div class="form-group">
+          <label for="modal-name">Name*</label>
+          <input type="text" id="modal-name" name="modal-name" required>
+          <span class="error-message" role="alert"></span>
+        </div>
+        <div class="form-group">
+          <label for="modal-email">Email*</label>
+          <input type="email" id="modal-email" name="modal-email" required>
+          <span class="error-message" role="alert"></span>
+        </div>
+        <div class="form-group">
+          <label for="modal-phone">Phone*</label>
+          <input type="tel" id="modal-phone" name="modal-phone" required>
+          <span class="error-message" role="alert"></span>
+        </div>
+        <button type="submit" class="cta-button cta-primary">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Success Toast -->
+  <div class="toast" id="success-toast" role="alert" aria-live="polite">
+    <p>Thank you! We'll be in touch within 24 hours.</p>
+  </div>
+
+  <!-- Assets README -->
+  <!-- 
+  assets/README.txt
+  -----------------
+  Please replace the following AI-generated placeholder images with actual images:
+  - /images/hero-shed-ai.jpg (max 350KB, full viewport hero image)
+  - /images/sheds-ai-shed.jpg
+  - /images/sheds-ai-garage.jpg
+  - /images/sheds-ai-barn.jpg
+  - /images/sheds-ai-carport.jpg
+  - /images/phone-mockup-ai.jpg
+  -->
+
+  <script src="script.js"></script>
+</body>
+</html> 
